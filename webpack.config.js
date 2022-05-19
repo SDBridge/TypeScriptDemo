@@ -3,7 +3,7 @@ const webpack = require('webpack'); // 访问内置的插件
 const path = require('path') // 使用path是为了
 module.exports = {
 	entry: {
-		main: path.resolve(__dirname, 'lib/mainIOS.ts'),
+		main: path.resolve(__dirname, 'lib/SDBridge.ts'),
 	},
 	output: {
 		filename: 'SDBridge.js',
